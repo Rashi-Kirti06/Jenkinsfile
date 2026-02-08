@@ -16,7 +16,6 @@ post {
     stage('Deploy') {
         echo 'Deploy stage'
     }
-
     try {
         echo 'Pipeline execution successful'
     } catch (err) {
@@ -26,6 +25,5 @@ post {
         echo 'Post build action executed'
     }
 }
-
 }
 
